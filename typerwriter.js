@@ -7,5 +7,5 @@ for (let i = 0; i < sentence.length; i++) {
 }
 
 setTimeout(()=> {
-  console.log("\n");
-}, 1600);
+  console.log("");
+}, sentence.length * 50);
